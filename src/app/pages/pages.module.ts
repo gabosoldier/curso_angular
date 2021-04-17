@@ -11,6 +11,8 @@ import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module';
 import { ComponentsModule } from '../components/components.module';
 import { AcccountSettingsComponent } from './acccount-settings/acccount-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -20,7 +22,9 @@ import { AcccountSettingsComponent } from './acccount-settings/acccount-settings
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AcccountSettingsComponent
+    AcccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
   ],
   exports: [
     DashboardComponent,
